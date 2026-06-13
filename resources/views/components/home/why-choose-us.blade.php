@@ -1,5 +1,5 @@
  <!-- start About section Two -->
-  <section class="about-section-two pt-120 pb-120">
+  <section  class="about-section-two pt-120 pb-120">
     <div class="auto-container">
       <div class="row">
         <div class="col-xl-7">

@@ -1,5 +1,5 @@
 <!-- start Testimonial Section Two -->
-  <section class="testimonial-section-one pt-110 pb-120">
+  <section id="testimonials" class="testimonial-section-one pt-110 pb-120">
     <div class="container-fluid">
       <div class="outer-box">
         <div class="row">

@@ -1,5 +1,5 @@
 <!-- start Service Section One -->
-  <section class="service-section pt-100 pb-100">
+  <section id="our-services" class="service-section pt-100 pb-100">
     <div class="container-fluid px-xl-5">
       <div class="sec-title text-center mx-auto wow fadeInUp">
         <div class="subtitle light"><span class="dot"></span> Service Area</div>

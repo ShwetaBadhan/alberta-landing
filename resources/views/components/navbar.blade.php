@@ -8,7 +8,7 @@
             <div class="main-box">
               <div class="logo-box">
                 <div class="logo">
-                  <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+                  <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="Logo" /></a>
                 </div>
               </div>
 
@@ -16,67 +16,24 @@
               <div class="nav-outer">
                 <nav class="nav main-menu">
                   <ul class="navigation">
-                    <li class="current dropdown"><a href="index.html">Home</a>
-                      <ul>
-                        <li><a href="index.html">Home page 01</a></li>
-                        <li><a href="index-2.html">Home page 02</a></li>
-                        <li class="dropdown"><a href="#">Header Styles</a>
-                          <ul>
-                            <li><a href="index.html">Header Style 01</a></li>
-                            <li><a href="index-2.html">Header Style 02</a></li>
-                          </ul>
-                        </li>
-                      </ul>
+                    <li class="current"><a href="#hero">Home</a>
+                     
                     </li>
-                    <li class="dropdown"><a href="#">Pages</a>
-                      <ul>
-                        <li><a href="page-about.html">About</a></li>
-                        <li class="dropdown"><a href="#">Projects</a>
-                          <ul>
-                            <li><a href="page-projects.html">Projects List</a></li>
-                            <li><a href="page-project-details.html">Project Details</a></li>
-                          </ul>
-                        </li>
-                        <li class="dropdown"><a href="#">Team</a>
-                          <ul>
-                            <li><a href="page-team.html">Team List</a></li>
-                            <li><a href="page-team-details.html">Team Details</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="page-testimonial.html">Testimonial</a></li>
-                        <li class="dropdown"><a href="#">Shop</a>
-                          <ul>
-                            <li><a href="shop-products.html">Products</a></li>
-                            <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                            <li><a href="shop-product-details.html">Product Details</a></li>
-                            <li><a href="shop-cart.html">Cart</a></li>
-                            <li><a href="shop-checkout.html">Checkout</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="page-faq.html">FAQ</a></li>
-                        <li><a href="page-404.html">Page 404</a></li>
-                      </ul>
+                    <li><a href="#who-we-are">Who We Are</a>
+                      
                     </li>
-                    <li class="dropdown"><a href="#">Services</a>
-                      <ul>
-                        <li><a href="page-services.html">Services</a></li>
-                        <li><a href="page-service-details.html">Services Details</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">News</a>
-                      <ul>
-                        <li><a href="news-grid.html">News Grid</a></li>
-                        <li><a href="news-details.html">News Details</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="page-contact.html">Contact</a></li>
+                    <li><a href="#our-services">Our Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faqs">FAQ's</a></li>
+                  
+                    
                   </ul>
                 </nav>
               </div>
               <div class="right-box">
                 <!-- Phone Box -->
-                <a class="theme-btn btn-style-three" href="page-contact.html">
-                  <span class="btn-title">Get Appointment </span>
+                <a class="theme-btn btn-style-three" href="#contact-us">
+                  <span class="btn-title">Get a Quote </span>
                 </a>
               </div>
               <!--Mobile Navigation Toggler-->
@@ -94,7 +51,7 @@
       <nav class="menu-box">
         <div class="upper-box">
           <div class="nav-logo">
-            <a href="index.html"><img src="images/logo-2.png" alt="" /></a>
+            <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="" /></a>
           </div>
           <div class="close-btn"><i class="icon fa fa-times"></i></div>
         </div>
@@ -124,7 +81,7 @@
       <button class="close-search"><span class="fa fa-times"></span></button>
 
       <div class="search-inner">
-        <form method="post" action="https://html.kodesolution.com/2025/coolex-html/index.html">
+        <form method="post" action="">
           <div class="form-group">
             <input type="search" name="search-field" value="" placeholder="Search..." required="" />
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -140,7 +97,7 @@
         <div class="inner-container">
           <!--Logo-->
           <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="" /></a>
           </div>
 
           <!--Right Col-->

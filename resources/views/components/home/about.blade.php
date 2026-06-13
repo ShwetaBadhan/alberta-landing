@@ -1,5 +1,5 @@
   <!-- Start About Section One -->
-  <section class="about-section pt-120 pb-120">
+  <section id="who-we-are" class="about-section pt-120 pb-120">
     <div class="auto-container">
       <div class="d-xl-flex align-items-center justify-content-between">
         <div class="sec-title mb-0 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">

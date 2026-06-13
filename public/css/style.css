@@ -1,9 +1,3 @@
-/* Coolex | Air Conditioning & Heating HVAC HTML Template
-
-Template Name: Coolex
-Version: 1.0.0
-License: copyright commercial
-
 /************ TABLE OF CONTENTS ***************
 1.  Fonts
 2.  Reset
@@ -51,9 +45,9 @@ License: copyright commercial
   --r: 30px; /* radius */
   --s: 50px; /* size of the inner curve*/
   --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%) no-repeat;
-  --theme-color1: #16309F;
-  --theme-color2: #000047;
-  --theme-color3: #FF6D48;
+  --theme-color1: #b81f20;
+  --theme-color2: #0169a9;
+  --theme-color3: #b81f20;
   --theme-color1-rgb: 22, 48, 159;
   --theme-color2-rgb: 0, 0, 71;
   --theme-color3-rgb: 255, 109, 72;
@@ -76,36 +70,36 @@ License: copyright commercial
   --theme-color-gray: #222222;
   --theme-color-gray2: #D9D9D9;
   --theme-color-blue-gray: #70759F;
-  --gradient-1: linear-gradient(102.22deg, #16309F 14.34%, #FFFFFF 95.5%);
-  --gradient-2: linear-gradient(102.22deg, #16309F 14.34%, #FF6D48 95.5%);
-  --gradient-3: linear-gradient(90deg, #16309F 0%, rgba(22, 48, 159, 0) 90.39%);
-  --gradient-4: linear-gradient(251.9deg, #000047 37.79%, #FF6D48 87.6%);
-  --gradient-5: linear-gradient(269.76deg, #FF6D48 2.84%, #000047 54.27%);
-  --gradient-6: linear-gradient(180deg, #000047 35%, #16309F 139.99%);
-  --gradient-7: linear-gradient(180deg, #000047 34.7%, #16309F 138.8%);
+  --gradient-1: linear-gradient(102.22deg, #0169a9 14.34%, #FFFFFF 95.5%);
+  --gradient-2: linear-gradient(102.22deg, #0169a9 14.34%, #b81f20 95.5%);
+  --gradient-3: linear-gradient(90deg, #0169a9 0%, rgba(22, 48, 159, 0) 90.39%);
+  --gradient-4: linear-gradient(251.9deg, #0169a9 37.79%, #b81f20 87.6%);
+  --gradient-5: linear-gradient(269.76deg, #b81f20 2.84%, #0169a9 54.27%);
+  --gradient-6: linear-gradient(180deg, #0169a9 35%, #0169a9 139.99%);
+  --gradient-7: linear-gradient(180deg, #0169a9 34.7%, #0169a9 138.8%);
   --gradient-8: linear-gradient(180deg, #FFFFFF 69.43%, #E1E7FD 98.99%);
-  --gradient-9: linear-gradient(270deg, #16309F -1.75%, #FF6D48 97.85%);
-  --gradient-10: linear-gradient(360deg, #16309F 0%, rgba(22, 48, 159, 0.13) 100%);
-  --gradient-11: linear-gradient(0deg, #16309F 8.58%, rgba(8, 17, 57, 0) 95.08%);
-  --gradient-12: linear-gradient(180deg, #000047 34.89%, #16309F 139.54%);
+  --gradient-9: linear-gradient(270deg, #0169a9 -1.75%, #b81f20 97.85%);
+  --gradient-10: linear-gradient(360deg, #0169a9 0%, rgba(22, 48, 159, 0.13) 100%);
+  --gradient-11: linear-gradient(0deg, #b81f20 8.58%, rgba(	1,	99,	9, 0) 95.08%);
+  --gradient-12: linear-gradient(180deg, #0169a9 34.89%, #0169a9 139.54%);
   --gradient-13: linear-gradient(122.28deg, #E1E7FD 13.28%, #FFFFFF 75.57%);
-  --gradient-14: linear-gradient(180deg, #000047 0%, #16309F 100%);
-  --gradient-15: linear-gradient(180deg, #000047 36.1%, #16309F 144.4%);
-  --gradient-16: linear-gradient(360deg, #16309F 7.65%, rgba(8, 17, 57, 0) 80.35%);
-  --gradient-17: linear-gradient(270deg, #4D91F2 0%, #16309F 100%);
+  --gradient-14: linear-gradient(180deg, #0169a9 0%, #0169a9 100%);
+  --gradient-15: linear-gradient(180deg, #0169a9 36.1%, #11226d 144.4%);
+  --gradient-16: linear-gradient(360deg, #0169a9 7.65%, rgba(8, 17, 57, 0) 80.35%);
+  --gradient-17: linear-gradient(270deg, #4D91F2 0%, #0169a9 100%);
   --gradient-18: linear-gradient(180deg, #FFFFFF 86.16%, #E1E7FD 98.02%);
-  --gradient-19: linear-gradient(360deg, #000047 7.65%, rgba(8, 17, 57, 0) 80.35%);
-  --gradient-20: linear-gradient(360deg, #000047 7.65%, rgba(8, 17, 57, 0) 80.35%);
+  --gradient-19: linear-gradient(360deg, #0169a9 7.65%, rgba(8, 17, 57, 0) 80.35%);
+  --gradient-20: linear-gradient(360deg, #0169a9 7.65%, rgba(8, 17, 57, 0) 80.35%);
   --gradient-21: linear-gradient(168.16deg, #FFFFFF -0.39%, #E1E7FD 96.18%);
-  --gradient-22: linear-gradient(129.02deg, #16309F 39.69%, #000047 91.52%);
-  --gradient-23: linear-gradient(270deg, #16309F 0%, rgba(22, 48, 159, 0.13) 99.36%);
-  --gradient-24: linear-gradient(39.17deg, #FF6D48 -0.68%, #000047 59.03%);
-  --gradient-25: linear-gradient(30.6deg, rgba(22, 48, 159, 0.13) 9.27%, #16309F 82.2%);
-  --gradient-26: linear-gradient(161.42deg, #000047 11.31%, #16309F 89.28%);
+  --gradient-22: linear-gradient(129.02deg, #0169a9 39.69%, #0169a9 91.52%);
+  --gradient-23: linear-gradient(270deg, #0169a9 0%, rgba(37, 65, 190, 0.13) 99.36%);
+  --gradient-24: linear-gradient(39.17deg, #b81f20 -0.68%, #0169a9 59.03%);
+  --gradient-25: linear-gradient(30.6deg, rgba(22, 48, 159, 0.13) 9.27%, #0169a9 82.2%);
+  --gradient-26: linear-gradient(161.42deg, #0169a9 11.31%, #0169a9 89.28%);
   --gradient-27: linear-gradient(168.1deg, #FFFFFF -0.39%, #E1E7FD 96.55%);
-  --gradient-28: linear-gradient(180deg, #FF6D48 0%, #000047 54.52%);
+  --gradient-28: linear-gradient(156deg, #0169a9, #b81f20  );
   --text-color: rgba(0, 0, 71, 0.6);
-  --headings-color: #000047;
+  --headings-color: #0169a9;
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
   --body-font-family: "Manrope", sans-serif;
@@ -4792,12 +4786,12 @@ Header Style Two
           justify-content: space-between;
 }
 .header-style-two .header-lower .nav-outer {
-  background-color: var(--theme-color-light);
+  /* background-color: var(--theme-color-light); */
   border-radius: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 536px;
+  /* max-width: 536px; */
   padding: 10px 0;
 }
 @media only screen and (max-width: 1400px) {
@@ -6500,7 +6494,7 @@ Section Title
 .banner-section-two .contact-form-three .contact-form input {
   background-color: rgba(var(--theme-color-white-rgb), 0.3);
   border-radius: 10px;
-  height: 60px;
+  height: 40px;
   padding: 0 20px;
 }
 .banner-section-two .contact-form-three .contact-form input::-webkit-input-placeholder {
@@ -6961,7 +6955,7 @@ Section Title
   }
 }
 .project-section-two .project-block-two .inner-block .image-box .readmore-btn {
-  background: #FF6D48;
+  background: #b81f20;
   border-radius: 50%;
   display: inline-block;
   height: 72px;
@@ -7740,8 +7734,8 @@ Section Title
   position: relative;
 }
 .feature-section-three:before {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-0.98%, #000047), to(#16309F));
-  background: linear-gradient(180deg, #000047 -0.98%, #16309F 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-0.98%, #0169a9), to(#0169a9));
+  background: linear-gradient(180deg, #0169a9 -0.98%, #0169a9 100%);
   border-radius: 40px;
   bottom: 0;
   content: "";
@@ -9237,7 +9231,7 @@ Section Title
   position: relative;
 }
 .contact-section-one .outer-box {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   border-radius: 40px;
   margin: 0 auto;
   max-width: 1800px;
@@ -9447,7 +9441,7 @@ Section Title
   display: block;
   font-size: 14px;
   font-weight: 400;
-  height: 60px;
+  height: 40px;
   line-height: 18px;
   margin-bottom: 0;
   padding: 23px 20px;
@@ -10224,7 +10218,7 @@ Funfact Section Home 1
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #16309F;
+  border: 1px solid #0169a9;
   border-radius: 77px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11151,7 +11145,7 @@ Process Section Two
 }
 .main-footer .widgets-section {
   position: relative;
-  padding: 100px 0 40px;
+  /* padding: 100px 0 40px; */
 }
 .main-footer .footer-column {
   position: relative;

@@ -1,6 +1,6 @@
 
   <!-- start Contact Section Two -->
-  <section class="contact-section-one">
+  <section class="contact-section-one pb-120">
     <div class="container-fluid">
       <div class="outer-box">
         <div class="contact-content-wrapper">

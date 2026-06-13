@@ -1,5 +1,5 @@
   <!-- start Banner Section One -->
-  <section class="banner-section-two">
+  <section id="hero" class="banner-section-two">
     <div class="floating-object-1 bounce-y"><img src="images/icons/banner2-object-1.png" alt=""></div>
     <div class="floating-object-2 bounce-y"><img src="images/icons/banner2-object-2.png" alt=""></div>
     <div class="banner-bg-pattern bounce-x"><img src="images/resource/banner2-top-bg.png" alt=""></div>
@@ -16,7 +16,7 @@
                 <div class="icon"><i class="fa-sharp fa-solid fa-phone-volume"></i></div>
                 <div class="info">
                   <h6 class="small-title">Need help now?</h6>
-                  <h5 class="call mb-0">Call: +92-3800-8060</h5>
+                  <h5 class="call mb-0">Call: 403-498-7777</h5>
                 </div>
               </div>
             </div>
@@ -30,7 +30,7 @@
             <div class="contact-form-three ms-xl-auto">
               <!-- Contact Form -->
               <div class="contact-form wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <form method="post" action="https://html.kodesolution.com/2025/coolex-html/get" id="contact-form">
+                <form method="post" action="" id="contact-form">
                   <div class="row">
                     <div class="form-group col-md-12">
                       <input type="text" name="name" placeholder="Full Name" required>
@@ -38,16 +38,22 @@
                     <div class="form-group col-md-12">
                       <input type="email" name="email" placeholder="Email Address " required>
                     </div>
+                    <div class="form-group col-md-12">
+                      <input type="text" name="email" placeholder="Phone No." required>
+                    </div>
+                    <div class="form-group col-md-12">
+                      <input type="text" name="email" placeholder="Address" required>
+                    </div>
                     <div class="form-group col-lg-12">
                       <select class="form-control">
-                        <option>Subject</option>
-                        <option>Subject Two</option>
-                        <option>Subject Three</option>
-                        <option>Subject Four</option>
+                        <option>Service</option>
+                        <option>AC Installation</option>
+                        <option>Furnace Replace/Installation</option>
+                       
                       </select>
                     </div>
                     <div class="form-group col-lg-12">
-                      <textarea name="message" placeholder="Message" rows="3" required></textarea>
+                      <textarea name="message" placeholder="Message" rows="2" required></textarea>
                     </div>
                     <div class="form-group col-lg-12">
                       <div class="btn-box">

@@ -9,8 +9,8 @@
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/logo/favicon-96x96.png" type="image/x-icon">
+<link rel="icon" href="images/logo/favicon-96x96.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,8 +28,6 @@
 </div>
 
 
-   <!-- scroll-top -->
-    <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
   <script src="js/jquery.js"></script>
   <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

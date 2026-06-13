@@ -1,5 +1,5 @@
  <!-- start FAQ Section Two -->
-  <section class="faq-section pt-120 pb-0">
+  <section id="faqs" class="faq-section pt-120 pb-0">
     <div class="floating-object bounce-x"><img src="images/icons/faq-bg-wave.png" alt=""></div>
     <div class="star-1 bounce-y"><img src="images/icons/star-1.png" alt=""></div>
     <div class="star-2 bounce-y"><img src="images/icons/star-2.png" alt=""></div>
