@@ -1,7 +1,7 @@
 <!-- start CTA Section -->
   <section class="cta-section pt-120 pb-120">
     <div class="floating-img-1 bounce-x"><img src="images/icons/cta-man-1.png" alt=""></div>
-    <div class="floating-img-2 bounce-y"><img src="images/icons/cta-object-1.png" alt=""></div>
+    {{-- <div class="floating-img-2 bounce-y"><img src="images/icons/cta-object-1.png" alt=""></div> --}}
     <div class="floating-img-3 bounce-x"><img src="images/icons/cta-ac-1.png" alt=""></div>
     <div class="auto-container">
       <div class="row">

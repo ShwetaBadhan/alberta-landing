@@ -1,7 +1,9 @@
 
   <!-- start Feature Section Two -->
   <section class="feature-section-two pb-120">
-    <div class="floating-img bounce-x"><img class="w-100" src="images/icons/benefit-object-img.png" alt=""></div>
+    <div class="floating-img bounce-x">
+    {{-- <img class="w-100" src="images/icons/benefit-object-img.png" alt=""> --}}
+    </div>
     <div class="auto-container">
       <div class="outer-box">
         <div class="row g-0">
