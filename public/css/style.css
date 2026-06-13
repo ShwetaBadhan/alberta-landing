@@ -87,9 +87,9 @@
   --gradient-14: linear-gradient(180deg, #0169a9 0%, #0169a9 100%);
   --gradient-15: linear-gradient(180deg, #0169a9 36.1%, #11226d 144.4%);
   --gradient-16: linear-gradient(180deg, 
-  rgba(211, 211, 211, 0) 0%,
-  rgba(211, 211, 211, 1) 50%,
-  rgba(211, 211, 211, 0) 100%
+  rgba(255, 255, 255, 0) 0%,
+  rgba(255, 255, 255, 1) 50%,
+  rgba(255, 255, 255, 0) 100%
 );
   --gradient-17: linear-gradient(270deg, #4D91F2 0%, #0169a9 100%);
   --gradient-18: linear-gradient(180deg, #FFFFFF 86.16%, #E1E7FD 98.02%);

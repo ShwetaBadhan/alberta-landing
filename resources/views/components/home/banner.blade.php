@@ -9,7 +9,7 @@
         <div class="col-xl-8 col-md-6">
           <div class="content-column">
             <div class="sub-title wow fadeInUp">Heating & Cooling Expert in Calgary</div>
-            <div class="banner-title wow fadeInUp">Your Trusted Air Conditioning Experts</div>
+            <div class="banner-title wow fadeInUp">Reliable AC & Furnace Installation Services</div>
             <div class="banner-bottom-box2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
               {{-- <div class="banner-text wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moreIt is</div> --}}
               <div class="contact-info">
