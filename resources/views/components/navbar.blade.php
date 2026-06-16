@@ -62,7 +62,7 @@
           <li>
             <i class="icon lnr-icon-envelope1"></i>
             <span class="title">Send Email</span>
-            <div class="text"><a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#e28e8395918d8ca2879a838f928e87cc818d8f"><span class="__cf_email__" data-cfemail="e889848589c684899f9b8786a88d90898598848dc68b8785">[email&#160;protected]</span></a></div>
+            <div class="text"><span class="__cf_email__">info@albertaheatingservices.ca</span></a></div>
           </li>
         </ul>
         <ul class="social-links">

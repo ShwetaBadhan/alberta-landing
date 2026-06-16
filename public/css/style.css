@@ -7552,9 +7552,44 @@ Section Title
     left: 35.4%;
   }
 }
+/* Tablet View (max-width: 991.98px) */
 @media (max-width: 991.98px) {
   .feature-section-two .outer-box:before {
     display: none;
+  }
+  
+  .feature-box-two .inner-box {
+    margin-bottom: 30px;
+    margin-left: 0;
+    /* Card-like appearance to replace the missing dashed lines */
+    padding: 30px 25px;
+    background-color: var(--theme-color-light);
+    border: 1px solid var(--theme-color-lighter);
+    border-radius: 12px;
+    transition: all 300ms ease;
+  }
+
+  /* Hide the desktop dashed separator on tablet for a cleaner look */
+  .feature-box-two .inner-box:after {
+    display: none;
+  }
+
+  .feature-box-two .inner-box .icon {
+    margin-bottom: 20px;
+    /* Slightly smaller icon for better proportion on tablet */
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 32px;
+  }
+
+  /* Hide the left accent bar for a cleaner card design */
+  .feature-box-two .inner-box .icon:before {
+    display: none;
+  }
+
+  .feature-box-two .inner-box.extra-space {
+    padding-top: 30px;
   }
 }
 .feature-section-two .floating-img {
@@ -7627,11 +7662,36 @@ Section Title
     padding-left: 30px;
   }
 }
+/* Mobile Phones View (max-width: 575.98px) */
 @media (max-width: 575.98px) {
   .feature-box-two .inner-box {
-    margin-bottom: 30px;
-    padding-left: 0;
-    padding-bottom: 0;
+    margin-bottom: 25px;
+    padding: 25px 20px;
+    text-align: center;
+    /* Ensure flex items center perfectly on small screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box-two .inner-box .icon {
+    margin: 0 auto 20px auto; /* Center the icon */
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    font-size: 28px;
+  }
+
+  .feature-box-two .inner-box .content-box .title {
+    font-size: 1.25rem; /* Ensure title is prominent and readable */
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  
+  /* Prevent the icon flip animation on mobile tap, which can feel glitchy/stuck */
+  .feature-box-two .inner-box:active .icon i {
+    -webkit-transform: none;
+    transform: none;
   }
 }
 .feature-box-two .inner-box:hover .icon {
@@ -8056,7 +8116,7 @@ Section Title
 }
 @media (max-width: 1199.98px) {
   .about-section .content-column .content-wrapper {
-    clip-path: none;
+    /* clip-path: none; */
     padding: 40px 30px;
   }
 }
@@ -8253,6 +8313,7 @@ Section Title
 @media (max-width: 1199.98px) {
   .about-section .image-content-2 .masking-img {
     margin-bottom: 25px;
+    -webkit-mask-image: url(../images/resource/about1-msking-bg.png);
   }
 }
 .about-section .image-content-2 .masking-img img {
@@ -8261,12 +8322,14 @@ Section Title
 }
 @media (min-width: 1200px) and (max-width: 1299.98px) {
   .about-section .image-content-2 .masking-img img {
-    -webkit-mask-image: none;
+     border-radius: 30px;
+    -webkit-mask-image: url(../images/resource/about1-msking-bg.png);
   }
 }
 @media (max-width: 767.98px) {
   .about-section .image-content-2 .masking-img img {
-    -webkit-mask-image: none;
+     border-radius: 30px;
+    -webkit-mask-image: url(../images/resource/about1-msking-bg.png);
   }
 }
 .about-section .image-content-2 .masking-img:before {
@@ -9260,6 +9323,7 @@ Section Title
 @media (max-width: 1399.98px) {
   .contact-section-one .outer-box .contact-content-wrapper {
     padding: 70px 15px;
+    
   }
 }
 @media (max-width: 1299.98px) {
@@ -9710,7 +9774,7 @@ Section Title
   top: 0;
 }
 .cta-section:before {
-  background: var(--gradient-11);
+  background: var(--gradient-10);
   bottom: 0;
   content: "";
   height: 100%;
@@ -9938,13 +10002,73 @@ Funfact Section Home 1
   border-top: 1px solid var(--theme-color-lighter);
   border-bottom: 1px solid var(--theme-color-lighter);
 }
+/* Tablet View (max-width: 991.98px) */
 @media (max-width: 991.98px) {
+  /* Remove outer box borders to prevent double-border issues */
   .funfact-section .outer-box {
-    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .funfact-block .inner-block {
+    border-right: none; /* Right border removes karein kyunki items wrap ho sakte hain */
+    border-bottom: 1px solid var(--theme-color-lighter);
+    padding: 35px 20px; /* Horizontal padding add kiya taaki text screen edge se na chipke */
+  }
+
+  /* Last child ka extra border fix */
+  .funfact-section .outer-box .funfact-block:last-child .inner-block {
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .funfact-block .inner-block .count-box .title {
+    font-size: 42px; /* Thoda scale down kiya */
+    line-height: 1.1;
+  }
+
+  .funfact-block .inner-block .count-box .text {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+/* Mobile Phones View (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+  .funfact-block .inner-block {
+    padding: 25px 15px;
+    border-right: none;
+    border-top: none;
+    /* Solid border ki jagah dashed border use karein, ye mobile par zyada subtle aur clean lagta hai */
+    border-bottom: 1px dashed var(--theme-color-lighter); 
+  }
+
+  /* Decorative dot (:) ko mobile par hide kar dein taaki design clean rahe */
+  .funfact-block .inner-block:before {
+    display: none;
+  }
+
+  .funfact-block .inner-block .count-box .title {
+    font-size: 36px; /* Mobile ke liye perfect size */
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 5px;
+  }
+
+  .funfact-block .inner-block .count-box .text {
+    font-size: 15px; /* Text ko title se chhota rakha taaki hierarchy bani rahe */
+    font-weight: 500; /* Thoda light weight, premium look ke liye */
+    letter-spacing: 0.05em; /* Uppercase text mein spacing add karne se wo professional lagta hai */
+    opacity: 0.85; /* Halka sa transparent taaki focus number par rahe */
+  }
+
+  /* Bilkul last wale block ka bottom border hata dein */
+  .funfact-section .outer-box .funfact-block:last-child .inner-block {
+    border-bottom: none;
   }
 }
 .funfact-section .outer-box .funfact-block:last-child .inner-block {
-  border-right: none;
+  border-top: 1px solid var(--theme-color-lighter);
+  border-bottom: 1px solid var(--theme-color-lighter);
 }
 
 .funfact-block:last-child {
@@ -9957,12 +10081,15 @@ Funfact Section Home 1
 }
 @media (max-width: 1199.98px) {
   .funfact-block .inner-block {
-    border-right: none;
+    border-top: 1px solid var(--theme-color-lighter);
+  border-bottom: 1px solid var(--theme-color-lighter);
   }
 }
 @media (max-width: 991.98px) {
   .funfact-block .inner-block {
     padding: 30px 0;
+    border-top: 1px solid var(--theme-color-lighter);
+  border-bottom: 1px solid var(--theme-color-lighter);
   }
 }
 .funfact-block .inner-block:before {

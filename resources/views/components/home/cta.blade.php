@@ -16,5 +16,86 @@
         </div>
       </div>
     </div>
+    
   </section>
+    <div class="row">
+          <div class="col-lg-12">
+            <div class="swiper client-slider pb-0 overflow-hidden me-2">
+              <div class="swiper-wrapper align-items-center">
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-1.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-2.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-3.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-4.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-5.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-6.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-1.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-2.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-3.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-4.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client-block py-5 swiper-slide text-center">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-5.png" alt="Image"></figure>
+                  </div>
+                </div>
+                <!-- Client Block -->
+                <div class="client p-5-block">
+                  <div class="inner-box">
+                    <figure class="image mb-0"><img src="images/clients/client-6.png" alt="Image"></figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
   <!-- End CTA Section -->
