@@ -7,7 +7,7 @@
     <div class="auto-container">
       <div class="row">
         <div class="sec-title mx-auto text-center mb-30 wow fadeInUp">
-          <div class="subtitle"><span class="dot"></span> FAQS</div>
+          <div class="subtitle"><span class="dot"></span> FAQ's</div>
           <h2 class="title">Answers to Your Most <br> Common Queries!</h2>
         </div>
         <div class="col-xl-10 mx-auto">
@@ -15,8 +15,8 @@
             <div class="tab-btn-box text-center">
               <ul class="tab-btns tab-buttons clearfix">
                 <li class="tab-btn active-btn" data-tab="#tab-1">General</li>
+                <li class="tab-btn" data-tab="#tab-3">AC</li>
                 <li class="tab-btn" data-tab="#tab-2">Support</li>
-                <li class="tab-btn" data-tab="#tab-3">Ac Conditioning</li>
               </ul>
             </div>
             <div class="tabs-content">

@@ -7,7 +7,7 @@
           <div class="row">
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget about-widget">
                 <figure class="image"><a href="{{ route('home') }}"><img src="images/logo/alberta-white.png" alt="Image"></a></figure>
                
@@ -21,7 +21,7 @@
             </div>
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget links-widget">
                 <h5 class="widget-title">Company</h5>
                 <ul class="user-links">
@@ -35,7 +35,7 @@
             </div>
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget links-widget">
                 <h5 class="widget-title">Our Service</h5>
                 <ul class="user-links">
@@ -48,16 +48,21 @@
             </div>
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget contact-widget">
                 <div class="list-one mb-30">
                   <h5 class="widget-title">Address</h5>
                   <div class="text">6520 36 Street Northeast, Calgary, Alberta, Canada.</div>
                 </div>
-                <div class="list-one">
+                <div class="list-one mb-30">
                   <h5 class="widget-title mb-3">Phone</h5>
                   <a class="phone" href="tel:403-498-7777">403-498-7777</a>
-                  <a class="phone"><span class="__cf_email__" data-cfemail="a6c2c3cbc9e6c3dec7cbd6cac388c5c9cb">info@albertaheatingservices.ca</span></a>
+                 
+                </div>
+                <div class="list-one">
+                  <h5 class="widget-title mb-3">Email</h5>
+                  
+                  <a href="mail:info@albertaheatingservices.ca" class="phone"><span >info@albertaheatingservices.ca</span></a>
                 </div>
               </div>
             </div>

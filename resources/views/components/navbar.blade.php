@@ -8,7 +8,7 @@
             <div class="main-box">
               <div class="logo-box">
                 <div class="logo">
-                  <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="Logo" /></a>
+                  <a href="{{ route('home') }}"><img src="{{ url('images/logo/AlbertaLogo.png') }}" class="header-logo" alt="Logo" /></a>
                 </div>
               </div>
 
@@ -51,7 +51,7 @@
       <nav class="menu-box">
         <div class="upper-box">
           <div class="nav-logo">
-            <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="" /></a>
+            <a href="{{ route('home') }}"><img src="{{ url('images/logo/AlbertaLogo.png') }}" alt="" class="header-logo"/></a>
           </div>
           <div class="close-btn"><i class="icon fa fa-times"></i></div>
         </div>
@@ -97,7 +97,7 @@
         <div class="inner-container">
           <!--Logo-->
           <div class="logo">
-            <a href="{{ route('home') }}"><img src="{{ url('images/logo/alberta-logo.png') }}" alt="" /></a>
+            <a href="{{ route('home') }}"><img src="{{ url('images/logo/AlbertaLogo.png') }}" class="header-logo" alt="" /></a>
           </div>
 
           <!--Right Col-->

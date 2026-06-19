@@ -15,7 +15,7 @@
                 <div class="contact-wrapper mb-5 mb-lg-0">
                   <div class="contact-widget wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="contact-badge">
-                      <div class="conpany-logo"><img src="images/contact-logo.png" alt=""></div>
+                      <div class="conpany-logo"><img src="images/logo/AlbertaLogo.png" alt=""></div>
                       <h5 class="title">Schedule a Free Consultation</h5>
                     </div>
                     <div class="contact-social">
@@ -31,15 +31,15 @@
                   <div class="contact-info wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="info-list">
                       <div class="subtitle">Email</div>
-                      <div class="title"><a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#9cf8f9f1f3dcf9e4fdf1ecf0f9b2fff3f1"><span class="__cf_email__" data-cfemail="3256575f5d72574a535f425e571c515d5f">[email&#160;protected]</span></a></div>
+                      <div class="title"><a href=""><span class="__cf_email__" data-cfemail="">info@albertaheatingservices.ca</span></a></div>
                     </div>
                     <div class="info-list">
                       <div class="subtitle">Phone</div>
-                      <div class="title"><a href="tel:+629-555-0129">+629 555-0129</a></div>
+                      <div class="title"><a href="tel:403-498-7777">403-498-7777</a></div>
                     </div>
                     <div class="info-list">
                       <div class="subtitle">Office</div>
-                      <div class="title"><a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#b4d0d1d9dbf4d1ccd5d9c4d8d19ad7dbd9">1901 Thornridge Cir. Shiloh <br> Hawaii 81063</a></div>
+                      <div class="title"><a href="">6520 36 Street Northeast, <br> Calgary, Alberta, Canada.</a></div>
                     </div>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
               <div class="content-column col-lg-6">
                 <!-- Contact Form -->
                 <div class="contact-form wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                  <form method="post" action="https://html.kodesolution.com/2025/coolex-html/get" id="contact-form">
+                  <form method="post" action="" id="contact-form">
                     <div class="row">
                       <div class="form-group col-md-6">
                         <label for="">Your Name <span class="color3">*</span></label>
