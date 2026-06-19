@@ -84,6 +84,7 @@
   --gradient-11: linear-gradient(0deg, #b81f20 8.58%, rgba(	1,	99,	9, 0) 95.08%);
   --gradient-12: linear-gradient(180deg, #0169a9 34.89%, #0169a9 139.54%);
   --gradient-13: linear-gradient(122.28deg, #E1E7FD 13.28%, #d6d6d638 75.57%);
+  --gradient-29: linear-gradient(122.28deg, #E1E7FD 13.28%, #E1E7FD 75.57%);
   --gradient-14: linear-gradient(180deg, #0169a9 0%, #0169a9 100%);
   --gradient-15: linear-gradient(180deg, #0169a9 36.1%, #11226d 144.4%);
   --gradient-16: linear-gradient(180deg, 
@@ -4769,7 +4770,7 @@ Header Style Two
   }
 }
 .header-style-two .outer-box:before {
-  background: var(--gradient-13);
+  background: var(--gradient-29);
   backdrop-filter: blur(20px);
   /* border-radius: 78px; */
   content: "";
@@ -16612,14 +16613,17 @@ Sidebar
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    background: var(--gradient-9);
-    padding: 10px 5px;
+    background: var(--theme-color1);
+    padding: 0px 5px;
     border-radius: 0;
     box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.3);
     gap: 0;
     width: 100%;
   }
+.banner-section-two .contact-form-three {
 
+  background: none;
+}
   .floating-action-buttons .fab-item {
     flex: 1;
     flex-direction: column;

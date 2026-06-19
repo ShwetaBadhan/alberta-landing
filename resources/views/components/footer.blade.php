@@ -2,11 +2,11 @@
   <footer class="main-footer footer-style-one pt-100">
     <div class="outer-box">
     
-      <div class="widgets-section wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+      {{-- <div class="widgets-section wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
         <div class="auto-container">
           <div class="row">
 
-            <!-- Footer Column -->
+            
             <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget about-widget">
                 <figure class="image"><a href="{{ route('home') }}"><img src="images/logo/alberta-white.png" alt="Image"></a></figure>
@@ -20,7 +20,7 @@
               </div>
             </div>
 
-            <!-- Footer Column -->
+            
             <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget links-widget">
                 <h5 class="widget-title">Company</h5>
@@ -34,7 +34,7 @@
               </div>
             </div>
 
-            <!-- Footer Column -->
+            
             <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget links-widget">
                 <h5 class="widget-title">Our Service</h5>
@@ -47,7 +47,7 @@
               </div>
             </div>
 
-            <!-- Footer Column -->
+            
             <div class="footer-column col-lg-3 col-sm-3">
               <div class="footer-widget contact-widget">
                 <div class="list-one mb-30">
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
     </div>
     <div class="marquee-section footer-style">
       <div class="marquee anim-fade-move">
@@ -84,7 +84,7 @@
     <div class="footer-bottom wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
       <div class="auto-container">
         <div class="inner-container">
-          <div class="copyright-text">© <?php echo date('Y')?> Alberta Heating | Developed by The Boss Media </div>
+          <div class="copyright-text">© <?php echo date('Y')?> Alberta Heating Services | Developed by The Boss Media </div>
           <div class="footer-menu">
             <a href="#">Terms & Condition</a>
             <a href="#">Privacy Policy</a>
